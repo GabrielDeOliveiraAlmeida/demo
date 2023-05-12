@@ -1,14 +1,17 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "field1": [
+    { "attributeId": "1", "attributeName": "Post 1", "isDefault": true },
+    { "attributeId": "2", "attributeName": "Post 2", "isDefault": false },
+    { "attributeId": "3", "attributeName": "Post 3", "isDefault": false },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "field2": [
+    { "attributeId": "1", "attributeName": "Post 1" },
+    { "attributeId": "2", "attributeName": "Post 2" },
+    { "attributeId": "3", "attributeName": "Post 3" },
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "field3": [
+    { "attributeId": "1", "attributeName": "Post 1", "fieldsRequired": { "field1": true } },
+    { "attributeId": "2", "attributeName": "Post 2", "fieldsRequired": { "field1": true }  },
+    { "attributeId": "3", "attributeName": "Post 3", "fieldsRequired": { "field1": true }  },
+  ],
 }
