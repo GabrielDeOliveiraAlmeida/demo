@@ -2,16 +2,16 @@
   "field1": [
     { "attributeId": "1", "attributeName": "Post 1", "isDefault": true },
     { "attributeId": "2", "attributeName": "Post 2", "isDefault": false },
-    { "attributeId": "3", "attributeName": "Post 3", "isDefault": false },
+    { "attributeId": "3", "attributeName": "Post 3", "isDefault": false }
   ],
   "field2": [
     { "attributeId": "1", "attributeName": "Post 1" },
     { "attributeId": "2", "attributeName": "Post 2" },
-    { "attributeId": "3", "attributeName": "Post 3" },
+    { "attributeId": "3", "attributeName": "Post 3" }
   ],
   "field3": [
     { "attributeId": "1", "attributeName": "Post 1", "fieldsRequired": { "field1": true } },
     { "attributeId": "2", "attributeName": "Post 2", "fieldsRequired": { "field1": true }  },
-    { "attributeId": "3", "attributeName": "Post 3", "fieldsRequired": { "field1": true }  },
-  ],
+    { "attributeId": "3", "attributeName": "Post 3", "fieldsRequired": { "field1": true }  }
+  ]
 }
